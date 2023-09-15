@@ -58,6 +58,17 @@ a{
     margin: 0 auto;
     position: relative;
 }
+.container-section{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+h2{
+    font-size: 2em;
+    padding-bottom: 50px;
+}
+
+
 /* header nav */
 nav{
     padding: 20px 10px;
@@ -92,4 +103,15 @@ h1{
 }
 .text-hero i{
     font-size: 50px
+}
+
+/* section */
+section{
+    padding-top: 100px;
+}
+.checkbox{
+    margin-right: 100px;
+}
+.checkbox span{
+    padding-left:10px;
 }
