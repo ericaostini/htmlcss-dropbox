@@ -49,6 +49,7 @@ a{
 .button-blue{
     background-color: var(--color-button);
     padding: 5px 20px;
+    text-align: center;
 }
 .white-text{
     color: var(--color-primary-color);
@@ -67,7 +68,10 @@ h2{
     font-size: 2em;
     padding-bottom: 50px;
 }
-
+ul li{
+    list-style: none;
+    line-height: 20px;
+}
 
 /* header nav */
 nav{
@@ -114,4 +118,19 @@ section{
 }
 .checkbox span{
     padding-left:10px;
+}
+.box{
+    border: 1px solid black;
+    margin-top: 40px;
+}
+.user{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+.info{
+    padding: 25px;
+}
+.info p,ul li{
+    padding-top: 20px;
 }
