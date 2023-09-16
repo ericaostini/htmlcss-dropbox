@@ -55,14 +55,16 @@ a{
     color: var(--color-primary-color);
 }
 .container{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     position: relative;
+    padding-top: 70px;
 }
 .container-section{
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     position: relative;
+    padding-top: 120px;
 }
 h2{
     font-size: 2em;
@@ -80,6 +82,7 @@ nav{
 .logo img{
     padding-right: 30px;
 }
+
 /* header hero */
 .hero{
     width: 100%;
@@ -88,7 +91,6 @@ nav{
 }
 h1{
     font-size: 4em;
-    padding-top: 70px;
     padding-right: 20px;
     font-weight: 800;
 }
@@ -110,18 +112,13 @@ h1{
 }
 
 /* section */
-section{
-    padding-top: 100px;
-}
 .checkbox{
-    margin-right: 100px;
-}
-.checkbox span{
-    padding-left:10px;
+    margin-right: 50px;
 }
 .box{
+    width: calc(100%/3);
     border: 1px solid black;
-    margin-top: 40px;
+    margin: 40px 30px 0px 0px;
 }
 .user{
     border-bottom: 1px solid black;
@@ -129,8 +126,23 @@ section{
     padding: 10px;
 }
 .info{
-    padding: 25px;
+    padding: 30px 20px 50px 20px;
 }
 .info p,ul li{
     padding-top: 20px;
+}
+.button-info{
+    padding: 60px 0px 30px 0px;
+    line-height: 40px;
+}
+.link-border{
+    text-decoration: underline;
+    color: var(--color-button);
+    font-weight: 400;
+}
+hr{
+    width: 10%;
+}
+.checkmark{
+    color: var(--color-button);
 }
