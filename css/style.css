@@ -127,6 +127,7 @@ h1{
 }
 .info{
     padding: 30px 20px 50px 20px;
+    width: 80%;
 }
 .info p,ul li{
     padding-top: 20px;
@@ -134,6 +135,7 @@ h1{
 .button-info{
     padding: 60px 0px 30px 0px;
     line-height: 40px;
+    width: 100%;
 }
 .link-border{
     text-decoration: underline;
@@ -146,3 +148,37 @@ hr{
 .checkmark{
     color: var(--color-button);
 }
+h3{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+.bold{
+    font-weight: 700;
+}
+.button-container{
+    background-color: var(--color-button);
+    color: var(--color-primary-color);
+    padding: 5px 80px;
+    text-align: center;
+}
+.box-team{
+    border: 1px solid black;
+    margin: 40px 30px 0px 0px;
+}
+.info-team{
+    width: 60%;
+    padding: 20px;
+}
+.sub-text{
+   padding-top: 50px;
+}
+.button-team{
+    width: 30%;
+    padding: 30px;
+    text-align: end;
+}
+.flex-team{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
