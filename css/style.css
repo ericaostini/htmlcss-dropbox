@@ -58,14 +58,12 @@ a{
     max-width: 1200px;
     width: 75%;
     margin: 0 auto;
-    position: relative;
     padding-top: 70px;
 }
 .container-section{
     max-width: 1000px;
     width: 65%;
     margin: 0 auto;
-    position: relative;
     padding-top: 120px;
 }
 h2{
@@ -97,17 +95,18 @@ h1{
     font-weight: 800;
 }
 .text-hero{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     width: 30%;
-    padding-top: 40px;
+}
+.image-hero{
+    width: 70%;
 }
 .image-hero img{
-    width: 70%;
+    width: 100%;
     display: block;
-    position: absolute;
+    position: relative;
     right: 0px;
-    top: 250px;
-    padding-top: 30px;
+    bottom: -40px;
 }
 .text-hero i{
     font-size: 50px
