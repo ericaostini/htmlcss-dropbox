@@ -206,8 +206,8 @@ h3{
 
 /* section 3 */
 .operation{
-    width: calc(100%/3);
-    padding: 10px 0px 50px 0px;
+    width: 30%;
+    padding-bottom: 60px;
 }
 .operation h3{
     padding-bottom: 30px;
@@ -218,3 +218,53 @@ h3{
 .wrap{
     flex-wrap: wrap;
 }
+
+/* section 5 */
+.size-logo{
+    width: 25%;
+    height: 25vh;
+    position: relative;
+}
+.team{
+}
+.team img{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#designit{
+    background-color: var(--color-square-1);
+}
+#asu{
+    background-color: var(--color-square-2);
+}
+#uf{
+    background-color: var(--color-square-3);
+}
+#topps{
+    background-color: var(--color-square-4);
+}
+.declaration{
+    height: 50vh;
+    width: 50vh;
+    padding: 20px;
+}
+.declaration img{
+    width: 300px;
+    padding-bottom: 50px;
+}
+#w-bicycle{
+    background-color: var(--color-square-5);
+}
+#hearst{
+    background-color: var(--color-square-6);
+}
+#lonely-planet{
+    background-color: var(--color-square-7);
+}
+#cco{
+    background-color: var(--color-square-8);
+}
+
