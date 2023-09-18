@@ -44,7 +44,7 @@ a{
     margin-bottom: 40px;
 }
 .margin-top{
-    margin-top: 120px;
+    margin-top: 150px;
 }
 .d-flex{
     display: flex;
@@ -80,7 +80,7 @@ a{
     max-width: 1000px;
     width: 65%;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 150px;
 }
 h2{
     font-size: 2em;
@@ -123,7 +123,7 @@ h1{
 .image-hero{
     width: 70%;
 }
-.text-hero i{
+.arrow{
     font-size: 50px;
 }
 .container-hero{
@@ -155,9 +155,11 @@ h1{
     padding-top: 20px;
 }
 .button-info{
-    padding: 60px 0px 30px 0px;
-    line-height: 40px;
     width: 100%;
+    padding: 50px 0px;
+}
+.size-button{
+    padding: 0px 50px;
 }
 .link-border{
     text-decoration: underline;
@@ -175,12 +177,6 @@ h3{
 }
 .bold{
     font-weight: 700;
-}
-.button-container{
-    background-color: var(--color-button);
-    color: var(--color-primary-color);
-    padding: 5px 80px;
-    text-align: center;
 }
 .box-team{
     border: 1px solid black;
@@ -202,6 +198,9 @@ h3{
     justify-content: space-between;
     align-items: flex-start;
 }
+.info-team h3{
+    padding-bottom: 10px;
+}
 
 /* section 2 */
 .text-partner{
@@ -216,6 +215,7 @@ h3{
 .white-button{
     border: 1px solid var(--color-secondary-color);
     width: 40%;
+    margin-top: 30px;
     padding: 10px;
     text-align: center;
 }
@@ -344,4 +344,25 @@ h4{
     background-color: var(--color-secondary-color);
     color: white;
     border: none;
+}
+
+/* hover */
+/* colori hover 
+#4C8FFF light 
+#0057E5 dark
+*/
+.dark:hover{
+    background-color: #0057E5;
+}
+.light:hover{
+    background-color:#4C8FFF;
+}
+.button-blue:hover i{
+    padding-left: 10px;
+}
+.link-border:hover{
+    opacity: 70%;
+}
+.white-button:hover{
+    border-radius: 10px;
 }
