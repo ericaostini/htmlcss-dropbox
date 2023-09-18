@@ -172,7 +172,6 @@ hr{
 }
 h3{
     font-size: 1.5em;
-    padding-bottom: 10px;
 }
 .bold{
     font-weight: 700;
@@ -215,7 +214,6 @@ h3{
     display: block;
 }
 .white-button{
-    margin-top: 20px;
     border: 1px solid var(--color-secondary-color);
     width: 40%;
     padding: 10px;
@@ -293,3 +291,57 @@ h3{
     background-color: var(--color-square-8);
 }
 
+/* section 6 */
+.prova-gratis{
+    padding: 100px 250px;
+    background-color: var(--color-background-hero);
+}
+.prova-gratis h2{
+    color: var(--color-text-color);
+    width: 50%;
+}
+.prova-gratis a{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--color-primary-color);
+}
+
+/* section 7 */
+details summary{
+    padding: 30px;
+    font-size: 1;
+}
+details p{
+    padding: 5px 45px 15px;
+}
+.border-top{
+    border-top: 1px solid black;
+}
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+
+/* footer */
+footer{
+    background-color: var(--color-secondary-color);
+    color: var(--color-primary-color);
+    padding-bottom: 30px;
+}
+.footer-section{
+    width: calc(100%/5);
+    padding-bottom: 20px;   
+}
+h4{
+    font-size: 1.1em;
+    padding-bottom: 15px;
+}
+.footer-section li{
+    line-height: 30px;
+    font-size: 0.8em;
+}
+#language{
+    background-color: var(--color-secondary-color);
+    color: white;
+    border: none;
+}
