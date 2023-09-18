@@ -55,12 +55,14 @@ a{
     color: var(--color-primary-color);
 }
 .container{
+    max-width: 1200px;
     width: 75%;
     margin: 0 auto;
     position: relative;
     padding-top: 70px;
 }
 .container-section{
+    max-width: 1000px;
     width: 65%;
     margin: 0 auto;
     position: relative;
@@ -201,4 +203,19 @@ h3{
     width: 40%;
     padding: 10px;
     text-align: center;
+}
+
+/* section 3 */
+.operation{
+    width: calc(100%/3);
+    padding: 10px 0px 50px 0px;
+}
+.operation h3{
+    padding-bottom: 30px;
+}
+.operation img{
+    width: 100%;
+}
+.wrap{
+    flex-wrap: wrap;
 }
