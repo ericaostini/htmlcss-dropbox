@@ -11,41 +11,39 @@
 <body>
     <!-- header -->
     <header>
-        <nav class="d-flex flex-space-between padding">
-            <div class="d-flex flex-space-between">
-                <div class="logo">
+        <nav class="d-flex flex-space-between">
+            <ul class="d-flex align-center">
+                <li class="padding-left">
                     <img src="img/logo-small.png" alt="logo Dropbox">
-                </div>
-                <div class="list">
-                    <a href="#" class="padding-right">Perchè Dropbox</a>
-                    <a href="#" class="padding-right">Funzioni</a>
-                    <a href="#" class="padding-right">Piani e Prezzi</a>
-                </div>
-            </div>
-            <div class="list">
-                <a href="#" class="padding-right">Supporto</a>
-                <a href="#" class="padding-right">Contatta l'ufficio vendite</a>
-                <a href="#" class="padding-right">Accedi</a>
-                <a href="#" class="button-blue padding-right white-text">Inizia</a>
-            </div>
+                </li>
+                <li class="padding-left"><a href="#">Perchè Dropbox</a></li>
+                <li class="padding-left"><a href="#">Funzioni</a></li>
+                <li class="padding-left"><a href="#">Piani e Prezzi</a></li>
+            </ul>
+            <ul class="d-flex align-center">
+                <li class="padding-right"><a href="#">Supporto</a></li>
+                <li class="padding-right"><a href="#">Contatta l'ufficio vendite</a></li>
+                <li class="padding-right"><a href="#">Accedi</a></li>
+                <li class="padding-right"><a href="#" class="button-blue">Inizia</a></li>
+            </ul>
         </nav>
-        <div class="hero">
+        <section class="hero">
             <div class="container">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-                <div class="d-flex flex-start container-hero">
+                <div class="d-flex container-hero">
                     <div class="text-hero">
-                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                        <p class="margin-bottom">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                         </p>
-                        <div class="padding-top"><a href="#" class="button-blue white-text">Inizia la tua prova gratuita</a></div>
-                        <p class="padding-top">Annulla in qualsiasi momento</p>
-                       <a href="#piani-pagamento"><i class="fa-solid fa-arrow-down padding-top"></i></a>
+                        <a href="#" class="button-blue margin-bottom">Inizia la tua prova gratuita</a>
+                        <p class="margin-bottom">Annulla in qualsiasi momento</p>
+                        <a href="#piani-pagamento"><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
                     <div class="image-hero">
                         <img src="img/jumbo.png" alt="">
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </header>
 
     <!-- main -->
@@ -231,40 +229,41 @@
             <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
             <a href="#" class="link-border">Scopri di più sui nostri clienti </a>
         </section>
-        <section>
-            <div>
-                <div class="d-flex debug team wrap">
-                    <div id="designit" class="size-logo">
-                        <img src="img/designit.svg" alt="logo designit">
-                    </div>
-                    <div id="asu" class="size-logo">
-                        <img src="img/arizona_state_university.svg" alt="logo Arizona State University">
-                    </div>
-                    <div id="uf" class="size-logo">
-                        <img src="img/university_of_florida.svg" alt="logo University of Florida">
-                    </div>
-                    <div id="topps" class="size-logo">
-                        <img src="img/topps.svg" alt="logo Topps">
-                    </div>
-                </div>
-                <div class="declaration debug">
+        <section class="margin-top d-flex">
+            <div class="team-section d-flex wrap">
+                <div id="designit" class="size-logo">
                     <img src="img/designit.svg" alt="logo designit">
-                    <p>"I membri del nostro team lavorano constantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
-                    <p class="padding-top">Morten Thomsen, Global IT Lead</p>
                 </div>
-                <div class="d-flex team wrap">
-                    <div id="w-bicycle" class="size-logo">
-                        <img src="img/world_bicycle_relief.svg" alt="logo World Bicycle Relief">
-                    </div>
-                    <div id="hearst" class="size-logo">
-                        <img src="img/hearst_corp.svg" alt="logo Hearst corporation">
-                    </div>
-                    <div id="lonely-planet" class="size-logo">
-                        <img src="img/lonely_planet.svg" alt="logo Lonely Planet">
-                    </div>
-                    <div id="cco" class="size-logo">
-                        <img src="img/clear_channel.svg" alt="logo Clear Channel Outdoor">
-                    </div>
+                <div id="asu" class="size-logo">
+                    <img src="img/arizona_state_university.svg" alt="logo Arizona State University">
+                </div>
+                <div id="uf" class="size-logo">
+                    <img src="img/university_of_florida.svg" alt="logo University of Florida">
+                </div>
+                <div id="topps" class="size-logo">
+                    <img src="img/topps.svg" alt="logo Topps">
+                </div>
+            </div>
+            <div class="team-section">
+                <div class="declaration">
+                    <img src="img/designit.svg" alt="logo designit" class="padding-top padding-left">
+                    <hr>
+                    <p class="padding-left padding-right">"I membri del nostro team lavorano constantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
+                    <p class="padding-top padding-left">Morten Thomsen, Global IT Lead</p>
+                </div>
+            </div>
+            <div class="team-section d-flex wrap">
+                <div id="w-bicycle" class="size-logo">
+                    <img src="img/world_bicycle_relief.svg" alt="logo World Bicycle Relief">
+                </div>
+                <div id="hearst" class="size-logo">
+                    <img src="img/hearst_corp.svg" alt="logo Hearst corporation">
+                </div>
+                <div id="lonely-planet" class="size-logo">
+                    <img src="img/lonely_planet.svg" alt="logo Lonely Planet">
+                </div>
+                <div id="cco" class="size-logo">
+                    <img src="img/clear_channel.svg" alt="logo Clear Channel Outdoor">
                 </div>
             </div>
         </section>
