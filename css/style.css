@@ -399,7 +399,7 @@ h4{
     display: none;
     position: absolute;
     width: 300px;
-    padding: 15px 25px;
+    padding: 15px 20px;
     text-align: justify;
     background-color: #F1EEE8;
     font-weight: 200;
@@ -410,8 +410,8 @@ h4{
 
 .dropdown:hover .dropdown-menu{
     display: block;
-    width: 500px;
+    width: 600px;
 }
-#funzioni:hover .dropdown-menu{
-    width: 300px;
+.small-dropdown:hover .dropdown-menu{
+    width: 350px;
 }
