@@ -3,17 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
     <title>Login</title>
 </head>
-<body>
-    <nav class="d-flex flex-space-between">
-        <div class="padding-left">
-            <img src="../img/logo-small.png" alt="logo dropbox">
+<body id="login">
+    <header>
+        <nav class="d-flex flex-space-between login-nav">
+            <div class="padding-left">
+                <img src="../img/logo-small.png" alt="logo dropbox">
+            </div>
+            <div class="padding-right">
+                <i class="fa-solid fa-globe dropdown-button"></i>
+                <a href="#" class="dropdown-button">Registrati</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="login-container">
+        <h3>Accedi o registrati</h3>
+        <div class="google d-flex dropdown-button">
+            <i class="fa-brands fa-google-plus icon"></i>
+            <p class="center"><a href="#">Continua con Google</a></p>
         </div>
-        <div class="padding-right">
-            <a href="#">Registrati</a>
+        <div class="apple d-flex dropdown-button">
+            <i class="fa-brands fa-apple icon"></i>
+            <p class="center"><a href="#">Continua con Apple</a></p>
         </div>
-    </nav>
+        <div class="or d-flex flex-space-between">
+            <hr>
+            <p>oppure</p>
+            <hr>
+        </div>
+        <div class="email">
+            <p>Indirizzo email</p>
+            <div class="text-email">
+                <input type="text">
+            </div>
+        <div>
+            <a href="#" class="dark button-blue continua">Continua</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container d-flex flex-space-between">
+            <section class="footer-section">
+                <h4>Dropbox</h4>
+                <ul>
+                    <li><a href="#" class="white-text">Applicazione desktop</a></li>
+                    <li><a href="#" class="white-text">Perchè Dropbox</a></li>
+                    <li><a href="" class="white-text">Piani</a></li>
+                    <li><a href="#" class="white-text">Sicurezza</a></li>
+                    <li><a href="#" class="white-text">Funzioni</a></li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <h4>Prodotti</h4>
+                <ul>
+                    <li><a href="#" class="white-text">Applicazione desktop</a></li>
+                    <li><a href="#" class="white-text">Perchè Dropbox</a></li>
+                    <li><a href="" class="white-text">Piani</a></li>
+                    <li><a href="#" class="white-text">Sicurezza</a></li>
+                    <li><a href="#" class="white-text">Funzioni</a></li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <h4>Azienda</h4>
+                <ul>
+                    <li><a href="#" class="white-text">Applicazione desktop</a></li>
+                    <li><a href="#" class="white-text">Perchè Dropbox</a></li>
+                    <li><a href="" class="white-text">Piani</a></li>
+                    <li><a href="#" class="white-text">Sicurezza</a></li>
+                    <li><a href="#" class="white-text">Funzioni</a></li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <h4>Supporto</h4>
+                <ul>
+                    <li><a href="#" class="white-text">Applicazione desktop</a></li>
+                    <li><a href="#" class="white-text">Perchè Dropbox</a></li>
+                    <li><a href="" class="white-text">Piani</a></li>
+                    <li><a href="#" class="white-text">Sicurezza</a></li>
+                    <li><a href="#" class="white-text">Funzioni</a></li>
+                </ul>
+            </section>
+            <section class="footer-section">
+                <h4>Community</h4>
+                <ul>
+                    <li><a href="#" class="white-text">Applicazione desktop</a></li>
+                    <li><a href="#" class="white-text">Perchè Dropbox</a></li>
+                    <li><a href="" class="white-text">Piani</a></li>
+                    <li><a href="#" class="white-text">Sicurezza</a></li>
+                    <li><a href="#" class="white-text">Funzioni</a></li>
+                </ul>
+            </section>
+        </div>
+        
+        <div class="container select">
+            <hr class="margin-bottom">
+            <i class="fa-solid fa-earth-americas"></i>
+            <select name="language" id="language">
+                <option value="ita">Italiano</option>
+                <option value="eng">Inglese</option>
+                <option value="esp">Spagnolo</option>
+                <option value="fra">Francese</option>
+            </select>
+        </div>
+    </footer>
 </body>
 </html>

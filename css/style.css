@@ -415,3 +415,53 @@ h4{
 }
 
 /* login page */
+#login{
+    position: relative;
+}
+.login-nav{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.383);
+}
+.login-container{
+    padding-top: 150px;
+    width: 35%;
+    margin: 0 auto;
+}
+.google, .apple{
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    border: 1px solid var(--color-secondary-color);
+    margin: 20px 0px 20px 0px;
+}
+.center{
+    margin: 0 auto;
+}
+.icon{
+    font-size: 1.5em;
+    padding-left: 20px;
+}
+.or hr{
+    width: 40%;
+}
+.email p{
+    margin-top: 20px;
+    font-size: 0.8em;
+    font-weight: 100;
+    opacity: 40%;
+}
+.text-email{
+    margin-top: 20px;
+}
+input[type="text"]{
+    width:100%;
+    padding: 15px 0px 15px 0px;
+}
+input[type="text"]:hover{
+    border: 2px solid var(--color-secondary-color)
+}
+input[type="text"]:active{
+    border: 2px solid var(--color-button)
+}
+.continua{
+    padding: 20px;
+    margin: 20px 0px 100px 0px ;
+}
